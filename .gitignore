@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Build outputs ---
+dist/
+build/
+.cache/
+out/
+tmp/
+temp/
+
+# --- Firebase ---
+# Ignore Firebase local emulator files and logs
+# .firebase/
+# firebase-debug.log
+# firebase-debug.*
+# firebase.json (if you want to keep config private — optional)
+
+# --- Environment files ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor & IDE files ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
+
+# --- Optional: if you use React/Vite ---
+*.tsbuildinfo
+
+# --- Service account keys (never commit these) ---
+serviceAccountKey.json
+*.key.json

@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "serverless-spot-it-c6955",
+    "testing": "serverless-spot-it-c6955"
+  },
+  "targets": {},
+  "etags": {}
+}
